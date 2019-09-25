@@ -12,7 +12,7 @@ var str_json = JSON.stringify(letters);
 
 //send json to php
 var request= new XMLHttpRequest();
-request.open("POST", "https://jnbarnesudel-1.paiza-user.cloud/~ubuntu/letters.php", true);
+request.open("POST", "letters.php", true);
 request.setRequestHeader("Content-type", "application/json");
 request.send(str_json);
 
