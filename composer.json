@@ -1,6 +1,2 @@
 {
-  "require": {
-    "php": "~7",
-    "ext-pdo_sqlite": "*"
-  }
 }
