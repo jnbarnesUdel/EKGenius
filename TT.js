@@ -1,8 +1,8 @@
 function entered(){
-        var patient = document.getElementById("User").value;
+        var user = document.getElementById("User").value;
     
         //make json obj of starting letters
-        var str_json = JSON.stringify(letters);
+        var str_json = JSON.stringify(user);
     
         //send json to php
         var request= new XMLHttpRequest();
