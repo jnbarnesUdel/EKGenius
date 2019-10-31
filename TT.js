@@ -1,5 +1,5 @@
 function entered(){
-        var patient = document.getElementById("patinet").value;
+        var patient = document.getElementById("User").value;
     
         //make json obj of starting letters
         var str_json = JSON.stringify(letters);
