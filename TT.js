@@ -1,4 +1,4 @@
-function guessed(){
+function entered(){
         var patient = document.getElementById("patinet").value;
     
         //make json obj of starting letters
