@@ -17,12 +17,13 @@ $fullStr = str_replace(',', "", $fullStr);
 echo $fullStr;
 $fullStr = '"'.$fullstr.'"';
 
+$star = "*";
 $dbhandle = new PDO("sqlite:test2.sql") or die("Failed to open DB");
 if (!$dbhandle) die ($error);
 
 echo 2;
 
-$query = "SELECT * FROM patientData WHERE id = $fullStr ";
+$query = "SELECT $star FROM patientData WHERE id = $fullStr ";
 
 
 $statement = $dbhandle->prepare($query);
