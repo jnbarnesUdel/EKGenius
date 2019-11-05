@@ -19,12 +19,14 @@ echo $fullStr;
 $dbhandle = new PDO("sqlite:test2.sql") or die("Failed to open DB");
 if (!$dbhandle) die ($error);
 
+echo 2;
 
 $query = "SELECT * FROM patientData WHERE id = $fullStr ";
 
 
 $statement = $dbhandle->prepare($query);
 $statement->execute();
+echo 3;
 
 //The results of the query are typically many rows of data
 //there are several ways of getting the data out, iterating row by row,
