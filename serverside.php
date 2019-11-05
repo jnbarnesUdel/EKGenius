@@ -14,11 +14,11 @@ $fullStr = str_replace(']', "", $fullStr);
 $fullStr = str_replace(' ', "", $fullStr);
 $fullStr = str_replace(',', "", $fullStr);
 
-$dbhandle = new PDO("sqlite:scrabble.sqlite") or die("Failed to open DB");
+$dbhandle = new PDO("sqlite:test2.sql") or die("Failed to open DB");
 if (!$dbhandle) die ($error);
 
 
-$query = "SELECT rack, words FROM racks WHERE rack = $fullStr ";
+$query = "SELECT * FROM patientData WHERE id = $fullStr ";
 
 
 $statement = $dbhandle->prepare($query);
