@@ -15,6 +15,7 @@ $fullStr = str_replace(' ', "", $fullStr);
 $fullStr = str_replace(',', "", $fullStr);
 
 echo $fullStr;
+$fullStr = '"'.$fullstr.'"';
 
 $dbhandle = new PDO("sqlite:test2.sql") or die("Failed to open DB");
 if (!$dbhandle) die ($error);
