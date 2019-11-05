@@ -6,7 +6,7 @@ function entered(){
     
         //send json to php
         var request= new XMLHttpRequest();
-        request.open("POST", "letters.php", true);
+        request.open("POST", "serverside.php", true);
         request.setRequestHeader("Content-type", "application/json");
         request.send(str_json);
     
