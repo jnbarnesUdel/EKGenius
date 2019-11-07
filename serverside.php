@@ -23,11 +23,13 @@ if($count != 4){
 $dbhandle = new PDO("sqlite:test2.sql") or die("Failed to open DB");
 if (!$dbhandle) die ($error);
 
+$table = "patientData";
+$table = '"'.$table.'"';
 if(count != 4){
-    $query = "SELECT * FROM patientData WHERE id = $fullStr ";
+    $query = "SELECT * FROM $table WHERE id = $fullStr ";
 }
 else{
-    $query = "INSERT INTO patientData VALUE($str_json[0]->id, $str_json[1]->firstName, $str_json[2]->lastName, $str_json[3]->illness)";
+    $query = "INSERT INTO $table VALUE($str_json[0]->id, $str_json[1]->firstName, $str_json[2]->lastName, $str_json[3]->illness)";
 }
 
 
