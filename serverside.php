@@ -4,6 +4,8 @@ $str_json = file_get_contents('php://input');
 json_decode($str_json);
 $fullStr = "";
 $count = count($str_json);
+echo $count;
+echo $str_json;
 for ($i = 0; $i < $count; $i++){
     $str = $str_json[$i];
     $fullStr = $fullStr.$str;
