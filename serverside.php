@@ -30,7 +30,7 @@ $dbhandle = new PDO("sqlite:test2.sql") or die("Failed to open DB");
 if (!$dbhandle) die ($error);
 
 $table = "patientData";
-$table = '"'.$table.'"';
+//$table = '"'.$table.'"';
 if($count != 4){
     //echo 1;
     $query = "SELECT * FROM $table WHERE id = $fullStr ";
