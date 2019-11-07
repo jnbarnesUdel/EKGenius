@@ -1,6 +1,7 @@
 <?php
 //Access-Control_Allow_Oregin;
 $str_json = file_get_contents('php://input');
+echo $str_json;
 json_decode($str_json);
 $fullStr = "";
 $count = 25;
