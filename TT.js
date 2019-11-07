@@ -21,10 +21,14 @@ function newPatient(){
 }
 
 function enterData(){
-        var data = [{key:id, document.getElementById("id").value},
-                    {key:firstName, document.getElementById("firstName").value}, 
-                    {key:lastName, document.getElementById("lastName").value},
-                    {key:illness, document.getElementById("illness").value}];
+        var i = document.getElementById("id").value;
+        var f = document.getElementById("firstName").value;
+        var l = document.getElementById("lastName").value;
+        var n = document.getElementById("illness").value;
+        var data = [{key:id, i},
+                    {key:firstName, f}, 
+                    {key:lastName, l},
+                    {key:illness, n];
         var data_json = JSON.stringify(data);
         
         //send json to php
