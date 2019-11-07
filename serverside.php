@@ -4,7 +4,7 @@ $str_json = file_get_contents('php://input');
 echo $str_json;
 json_decode($str_json);
 $fullStr = "";
-$count = 25;
+$count = count($str_json);
 for ($i = 0; $i < $count; $i++){
     $str = $str_json[$i];
     $fullStr = $fullStr.$str;
@@ -15,6 +15,7 @@ $fullStr = str_replace(']', "", $fullStr);
 $fullStr = str_replace(' ', "", $fullStr);
 $fullStr = str_replace(',', "", $fullStr);
 
+echo "/n";
 echo $fullStr;
 $fullStr = '"'.$fullstr.'"';
 
