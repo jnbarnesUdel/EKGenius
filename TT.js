@@ -13,7 +13,7 @@ function entered(){
         setTimeout(function afterOneSeconds() {
             var re = request.response;
             JSON.parse(re);
-        }, 1000)
+        }, 1000);
 }
 
 function newPatient(){
@@ -36,5 +36,5 @@ function enterData(){
         setTimeout(function afterOneSeconds() {
             var re = request.response;
             JSON.parse(re);
-        }, 1000)  
+        }, 1000);
 }
