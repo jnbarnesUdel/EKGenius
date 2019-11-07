@@ -38,7 +38,7 @@ if($count != 4){
 else{
     //echo 2;
     //echo $str_json[1]->firstName;
-    $query = "INSERT INTO $table VALUE(id $id, firstName $firstName, lastName $lastName, illness $illness) ";
+    $query = "INSERT INTO $table VALUES($id, $firstName, $lastName, $illness) ";
     echo $query;
 }
 
