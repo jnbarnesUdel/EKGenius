@@ -19,3 +19,22 @@ function entered(){
 function newPatient(){
         window.location.href = '/newPatient.html';       
 }
+
+function enterData(){
+        var data = [{key:id, document.getElementById("id").value},
+                    {key:firstName, document.getElementById("firstName").value}, 
+                    {key:lastName, document.getElementById("lastName").value},
+                    {key:illness, document.getElementById("illness").value}];
+        var data_json = JSON.stringify(data);
+        
+        //send json to php
+        var request= new XMLHttpRequest();
+        request.open("POST", "serverside.php", true);
+        request.setRequestHeader("Content-type", "application/json");
+        request.send(data_json);
+    
+        setTimeout(function afterOneSeconds() {
+            var re = request.response;
+            JSON.parse(re);
+        }, 1000)  
+}
