@@ -29,7 +29,7 @@ if(count != 4){
     $query = "SELECT * FROM $table WHERE id = $fullStr ";
 }
 else{
-    $query = "INSERT INTO $table VALUE($str_json[0]->id, $str_json[1]->firstName, $str_json[2]->lastName, $str_json[3]->illness)";
+    $query = "INSERT INTO $table VALUE(id $str_json[0]->id, firstName $str_json[1]->firstName, lastName $str_json[2]->lastName, illness $str_json[3]->illness)";
 }
 
 
