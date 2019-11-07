@@ -4,27 +4,29 @@ $str_json = file_get_contents('php://input');
 $str_json = json_decode($str_json);
 $fullStr = "";
 $count = sizeof($str_json);
-echo $count;
-print("/n");
-echo $str_json;
-for ($i = 0; $i < $count; $i++){
-    $str = $str_json[$i];
-    $fullStr = $fullStr.$str;
+if($count != 4){
+    for ($i = 0; $i < $count; $i++){
+        $str = $str_json[$i];
+        $fullStr = $fullStr.$str;
+    }
+    $fullStr = str_replace('"', "", $fullStr);
+    $fullStr= str_replace('[', "", $fullStr);
+    $fullStr = str_replace(']', "", $fullStr);
+    $fullStr = str_replace(' ', "", $fullStr);
+    $fullStr = str_replace(',', "", $fullStr);
+
+    $fullStr = '"'.$fullstr.'"';
 }
-$fullStr = str_replace('"', "", $fullStr);
-$fullStr= str_replace('[', "", $fullStr);
-$fullStr = str_replace(']', "", $fullStr);
-$fullStr = str_replace(' ', "", $fullStr);
-$fullStr = str_replace(',', "", $fullStr);
 
-$fullStr = '"'.$fullstr.'"';
-
-$star = "*";
 $dbhandle = new PDO("sqlite:test2.sql") or die("Failed to open DB");
 if (!$dbhandle) die ($error);
 
-
-$query = "SELECT $star FROM patientData WHERE id = $fullStr ";
+if(count != 4){
+    $query = "SELECT * FROM patientData WHERE id = $fullStr ";
+}
+else{
+    $query = "INSERT INTO patientData VALUE($str_json[0], $str_json[1], $str_json[2], $str_json[3])";
+}
 
 
 $statement = $dbhandle->prepare($query);
