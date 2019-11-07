@@ -19,6 +19,12 @@ if($count != 4){
 
     $fullStr = '"'.$fullstr.'"';
 }
+else{
+    $id = $str_json[0]->id;
+    $firstName = $str_json[1]->firstName;
+    $lastName = $str_json[2]->lastName;
+    $illness = $str_json[3]->illnsess
+}
 
 $dbhandle = new PDO("sqlite:test2.sql") or die("Failed to open DB");
 if (!$dbhandle) die ($error);
@@ -32,7 +38,7 @@ if($count != 4){
 else{
     echo 2;
     echo $str_json[1]->firstName;
-    $query = "INSERT INTO $table VALUE(id $str_json[0]->id, firstName $str_json[1]->firstName, lastName $str_json[2]->lastName, illness $str_json[3]->illness) ";
+    $query = "INSERT INTO $table VALUE(id $id, firstName $firstName, lastName $lastName, illness $illness) ";
     echo $query;
 }
 
