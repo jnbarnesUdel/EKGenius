@@ -6,6 +6,7 @@ $fullStr = "";
 $count = sizeof($str_json);
 echo $count;
 if($count != 4){
+    echo 1;
     for ($i = 0; $i < $count; $i++){
         $str = $str_json[$i];
         $fullStr = $fullStr.$str;
@@ -19,6 +20,7 @@ if($count != 4){
     $fullStr = '"'.$fullstr.'"';
 }
 else{
+    echo 2;
     echo $str_json[0];
  echo "zero $str_json[0] one $str_json[1] two $str_json[2]";
 }
