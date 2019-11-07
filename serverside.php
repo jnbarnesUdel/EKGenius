@@ -25,7 +25,7 @@ if (!$dbhandle) die ($error);
 
 $table = "patientData";
 $table = '"'.$table.'"';
-if(count != 4){
+if($count != 4){
     echo 1;
     $query = "SELECT * FROM $table WHERE id = $fullStr ";
 }
