@@ -3,7 +3,7 @@
 $str_json = file_get_contents('php://input');
 json_decode($str_json);
 $fullStr = "";
-$count = count($str_json);
+$count = sizeof($str_json);
 echo $count;
 print("/n");
 echo $str_json;
