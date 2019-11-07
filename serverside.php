@@ -4,8 +4,8 @@ $str_json = file_get_contents('php://input');
 $str_json = json_decode($str_json);
 $fullStr = "";
 $count = sizeof($str_json);
-echo $count;
-print_r($str_json);
+//echo $count;
+//print_r($str_json);
 if($count != 4){
     for ($i = 0; $i < $count; $i++){
         $str = $str_json[$i];
@@ -30,6 +30,7 @@ if(count != 4){
 }
 else{
     $query = "INSERT INTO $table VALUE(id $str_json[0]->id, firstName $str_json[1]->firstName, lastName $str_json[2]->lastName, illness $str_json[3]->illness)";
+    echo $query;
 }
 
 
