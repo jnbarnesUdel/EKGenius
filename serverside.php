@@ -15,7 +15,6 @@ $fullStr = str_replace(']', "", $fullStr);
 $fullStr = str_replace(' ', "", $fullStr);
 $fullStr = str_replace(',', "", $fullStr);
 
-echo "/n";
 echo $fullStr;
 $fullStr = '"'.$fullstr.'"';
 
