@@ -17,5 +17,5 @@ function entered(){
 }
 
 function newPatient(){
-        document.location.href = "newPatinet.html";       
+        window.location.href = '/newPatinet.html';       
 }
