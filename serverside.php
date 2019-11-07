@@ -1,7 +1,7 @@
 <?php
 //Access-Control_Allow_Oregin;
 $str_json = file_get_contents('php://input');
-$str_json = json_decode($str_json);
+//$str_json = json_decode($str_json);
 $fullStr = "";
 $count = sizeof($str_json);
 echo $count;
