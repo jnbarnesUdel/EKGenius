@@ -4,6 +4,7 @@ $str_json = file_get_contents('php://input');
 $str_json = json_decode($str_json);
 $fullStr = "";
 $count = sizeof($str_json);
+echo $count;
 if($count != 4){
     for ($i = 0; $i < $count; $i++){
         $str = $str_json[$i];
@@ -18,6 +19,7 @@ if($count != 4){
     $fullStr = '"'.$fullstr.'"';
 }
 else{
+    echo $str_json[0];
  echo "zero $str_json[0] one $str_json[1] two $str_json[2]";
 }
 
