@@ -26,9 +26,11 @@ if (!$dbhandle) die ($error);
 $table = "patientData";
 $table = '"'.$table.'"';
 if(count != 4){
+    echo 1;
     $query = "SELECT * FROM $table WHERE id = $fullStr ";
 }
 else{
+    echo 2;
     $query = "INSERT INTO $table VALUE(id $str_json[0]->id, firstName $str_json[1]->firstName, lastName $str_json[2]->lastName, illness $str_json[3]->illness)";
     echo $query;
 }
