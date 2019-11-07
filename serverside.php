@@ -5,7 +5,7 @@ $str_json = json_decode($str_json);
 $fullStr = "";
 $count = sizeof($str_json);
 //echo $count;
-//print_r($str_json);
+print_r($str_json);
 if($count != 4){
     for ($i = 0; $i < $count; $i++){
         $str = $str_json[$i];
