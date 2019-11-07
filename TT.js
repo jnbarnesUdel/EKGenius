@@ -28,7 +28,7 @@ function enterData(){
         var data = [{key:id, i},
                     {key:firstName, f}, 
                     {key:lastName, l},
-                    {key:illness, n];
+                    {key:illness, n}];
         var data_json = JSON.stringify(data);
         
         //send json to php
