@@ -7,7 +7,6 @@ $count = sizeof($str_json);
 echo $count;
 print_r($str_json);
 if($count != 4){
-    echo 1;
     for ($i = 0; $i < $count; $i++){
         $str = $str_json[$i];
         $fullStr = $fullStr.$str;
@@ -20,11 +19,6 @@ if($count != 4){
 
     $fullStr = '"'.$fullstr.'"';
 }
-else{
-    echo 2;
-    echo $str_json[0]->id;
- echo "zero $str_json[0]->id one $str_json[1]->firstName two $str_json[2]->lastName";
-}
 
 $dbhandle = new PDO("sqlite:test2.sql") or die("Failed to open DB");
 if (!$dbhandle) die ($error);
@@ -33,7 +27,7 @@ if(count != 4){
     $query = "SELECT * FROM patientData WHERE id = $fullStr ";
 }
 else{
-    $query = "INSERT INTO patientData VALUE($str_json[0], $str_json[1], $str_json[2], $str_json[3])";
+    $query = "INSERT INTO patientData VALUE($str_json[0]->id, $str_json[1]->firstName, $str_json[2]->lastName, $str_json[3]->illness)";
 }
 
 
