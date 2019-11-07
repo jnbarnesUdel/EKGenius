@@ -5,7 +5,7 @@ $str_json = json_decode($str_json);
 $fullStr = "";
 $count = sizeof($str_json);
 //echo $count;
-print_r($str_json);
+//print_r($str_json);
 if($count != 4){
     for ($i = 0; $i < $count; $i++){
         $str = $str_json[$i];
@@ -32,12 +32,12 @@ if (!$dbhandle) die ($error);
 $table = "patientData";
 $table = '"'.$table.'"';
 if($count != 4){
-    echo 1;
+    //echo 1;
     $query = "SELECT * FROM $table WHERE id = $fullStr ";
 }
 else{
-    echo 2;
-    echo $str_json[1]->firstName;
+    //echo 2;
+    //echo $str_json[1]->firstName;
     $query = "INSERT INTO $table VALUE(id $id, firstName $firstName, lastName $lastName, illness $illness) ";
     echo $query;
 }
