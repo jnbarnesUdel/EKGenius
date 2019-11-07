@@ -16,3 +16,6 @@ function entered(){
         }, 1000)
 }
 
+function newPatient(){
+        window.location.href = "newPatinet.html";       
+}
