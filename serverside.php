@@ -5,6 +5,7 @@ json_decode($str_json);
 $fullStr = "";
 $count = count($str_json);
 echo $count;
+print("/n");
 echo $str_json;
 for ($i = 0; $i < $count; $i++){
     $str = $str_json[$i];
@@ -16,14 +17,12 @@ $fullStr = str_replace(']', "", $fullStr);
 $fullStr = str_replace(' ', "", $fullStr);
 $fullStr = str_replace(',', "", $fullStr);
 
-echo $fullStr;
 $fullStr = '"'.$fullstr.'"';
 
 $star = "*";
 $dbhandle = new PDO("sqlite:test2.sql") or die("Failed to open DB");
 if (!$dbhandle) die ($error);
 
-echo 2;
 
 $query = "SELECT $star FROM patientData WHERE id = $fullStr ";
 
