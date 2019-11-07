@@ -17,6 +17,9 @@ if($count != 4){
 
     $fullStr = '"'.$fullstr.'"';
 }
+else{
+ echo "zero $str_json[0] one $str_json[1] two $str_json[2]";
+}
 
 $dbhandle = new PDO("sqlite:test2.sql") or die("Failed to open DB");
 if (!$dbhandle) die ($error);
