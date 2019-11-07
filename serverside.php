@@ -4,7 +4,7 @@ $str_json = file_get_contents('php://input');
 echo $str_json;
 json_decode($str_json);
 $fullStr = "";
-$count = count($str_json);
+$count = 25;
 for ($i = 0; $i < $count; $i++){
     $str = $str_json[$i];
     $fullStr = $fullStr.$str;
