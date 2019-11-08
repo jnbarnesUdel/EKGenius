@@ -22,8 +22,11 @@ if($count != 4){
 else{
     $id = $str_json[0]->id;
     $firstName = $str_json[1]->firstName;
+    $firstName = "'".$firstName."'";
     $lastName = $str_json[2]->lastName;
+    $lastName = "'".$lastName."'";
     $illness = $str_json[3]->illness;
+    $illness = "'".$illness."'";
 }
 
 $dbhandle = new PDO("sqlite:test2.sql") or die("Failed to open DB");
