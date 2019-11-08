@@ -26,7 +26,7 @@ else{
     $illness = $str_json[3]->illness;
 }
 
-$dbhandle = new PDO("sql:test2.sql") or die("Failed to open DB");
+$dbhandle = new PDO("sqlite:test2.sql") or die("Failed to open DB");
 if (!$dbhandle) die ($error);
 
 $table = "patientData";
