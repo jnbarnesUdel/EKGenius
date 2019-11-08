@@ -26,7 +26,7 @@ else{
     $illness = $str_json[3]->illness;
 }
 
-$dbhandle = new PDO("sqlite:test2.sql") or die("Failed to open DB");
+$dbhandle = new PDO("SQLite3:test2.sql") or die("Failed to open DB");
 if (!$dbhandle) die ($error);
 
 $table = "patientData";
@@ -38,7 +38,7 @@ if($count != 4){
 else{
     //echo 2;
     //echo $str_json[1]->firstName;
-    $query = "INSERT INTO $table (id, firstName, lastName, illness) VALUES($id, $firstName, $lastName, $illness) ";
+    $query = "INSERT INTO $table(id, firstName, lastName, illness) VALUES($id, $firstName, $lastName, $illness) ";
     echo $query;
 }
 
