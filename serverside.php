@@ -29,7 +29,7 @@ else{
     $illness = "'".$illness."'";
 }
 
-$dbhandle = new PDO("sqlite:test2.sql") or die("Failed to open DB");
+$dbhandle = new PDO("sqlite:data.sqlite") or die("Failed to open DB");
 if (!$dbhandle) die ($error);
 
 $table = "patientData";
