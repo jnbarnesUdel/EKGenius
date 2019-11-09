@@ -7,7 +7,7 @@ $count = sizeof($str_json);
 //echo $count;
 //print_r($str_json);
 if($count != 4){
-    for ($i = 0; $i < $count; $i++){
+    for ($i = 0; $i < 10; $i++){
         $str = $str_json[$i];
         $fullStr = $fullStr.$str;
     }
@@ -17,7 +17,7 @@ if($count != 4){
     $fullStr = str_replace(' ', "", $fullStr);
     $fullStr = str_replace(',', "", $fullStr);
 
-    $fullStr = '"'.$fullstr.'"';
+    $fullStr = '"'.$fullStr.'"';
 }
 else{
     $id = $str_json[0]->id;
@@ -29,7 +29,7 @@ else{
     $illness = "'".$illness."'";
 }
 
-$dbhandle = new PDO("sqlite:data.sqlite") or die("Failed to open DB");
+$dbhandle = new PDO("sqlite:test.sqlite") or die("Failed to open DB");
 if (!$dbhandle) die ($error);
 
 $table = "patientData";
