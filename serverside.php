@@ -42,8 +42,8 @@ else{
     //echo 2;
     //echo $str_json[1]->firstName;
     $query = "INSERT INTO patientData(id, firstName, lastName, illness) VALUES($id, $firstName, $lastName, $illness) ";
-    echo $query;
 }
+echo $query;
 
 
 $statement = $dbhandle->prepare($query);
