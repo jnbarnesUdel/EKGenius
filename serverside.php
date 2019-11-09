@@ -47,6 +47,7 @@ echo $query;
 
 
 $statement = $dbhandle->prepare($query);
+echo 2;
 $statement->execute();
 echo 3;
 
