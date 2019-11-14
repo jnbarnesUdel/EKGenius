@@ -43,20 +43,20 @@ else{
     //echo $str_json[1]->firstName;
     $query = "INSERT INTO patientData(id, firstName, lastName, illness) VALUES($id, $firstName, $lastName, $illness) ";
 }
-echo $query;
+//echo $query;
 
 
 $statement = $dbhandle->prepare($query);
-echo 2;
+//echo 2;
 $statement->execute();
-echo 3;
+//echo 3;
 
 //The results of the query are typically many rows of data
 //there are several ways of getting the data out, iterating row by row,
 //I chose to get associative arrays inside of a big array
 //this will naturally create a pleasant array of JSON data when I echo in a couple lines
 $results = $statement->fetchAll(PDO::FETCH_ASSOC);
-print_r($results);
+//print_r($results);
 
 
 
