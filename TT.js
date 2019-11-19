@@ -13,9 +13,9 @@ function entered(){
             var re = request.response;
            re = JSON.parse(re);
             console.log(re);
-            document.getElementById("firstName").value = re[0]->firstName; 
-            document.getElementById("lastName").value = re[0]->lastName;
-            document.getElementById("illness").value = re[0]->illness;
+            document.getElementById("firstName").value = re[0].firstName; 
+            document.getElementById("lastName").value = re[0].lastName;
+            document.getElementById("illness").value = re[0].illness;
             
         }, 1000);
 }
