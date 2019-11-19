@@ -11,7 +11,7 @@ function entered(){
     
         setTimeout(function afterOneSeconds() {
             var re = request.response;
-            JSON.parse(re);
+            re = JSON.parse(re);
             for(stuff in re){
                 console.log(stuff);
                 console.log(re);
