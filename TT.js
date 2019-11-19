@@ -16,7 +16,7 @@ function entered(){
             document.getElementById("firstName").value = re.firstName; 
             document.getElementById("lastName").value = re.lastName;
             document.getElementById("illness").value = re.illness;
-            }
+            
         }, 1000);
 }
 
