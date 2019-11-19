@@ -3,6 +3,9 @@ function entered(){
     
         //make json obj of starting letters
         var str_json = JSON.stringify(user);
+        
+         window.location.href = '/Display.html';
+        
     
         //send json to php
         var request= new XMLHttpRequest();
@@ -13,6 +16,13 @@ function entered(){
         setTimeout(function afterOneSeconds() {
             var re = request.response;
             JSON.parse(re);
+            for(stuff in re){
+                console.log(stuff);
+                console.log(re);
+                document.getElementById("firstName").value = re[stuff].firstName; 
+                document.getElementById("lastName").value = re[stuff].lastName;
+                document.getElementById("illness").value = re[stuff].illness;
+            }
         }, 1000);
 }
 
