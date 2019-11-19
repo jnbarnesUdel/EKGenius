@@ -11,7 +11,6 @@ function entered(){
     
         setTimeout(function afterOneSeconds() {
             var re = request.response;
-            window.location.href = '/Display.html';
             JSON.parse(re);
             for(stuff in re){
                 console.log(stuff);
