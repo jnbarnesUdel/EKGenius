@@ -3,10 +3,6 @@ function entered(){
     
         //make json obj of starting letters
         var str_json = JSON.stringify(user);
-        
-         window.location.href = '/Display.html';
-        
-    
         //send json to php
         var request= new XMLHttpRequest();
         request.open("POST", "serverside.php", true);
@@ -15,6 +11,7 @@ function entered(){
     
         setTimeout(function afterOneSeconds() {
             var re = request.response;
+            window.location.href = '/Display.html';
             JSON.parse(re);
             for(stuff in re){
                 console.log(stuff);
