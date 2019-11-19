@@ -12,17 +12,10 @@ function entered(){
         setTimeout(function afterOneSeconds() {
             var re = request.response;
             re = JSON.parse(re);
-                console.log(re[0]);
-                console.log(re[0].firstName);
-                console.log(re[1]);
-                console.log(re[1].firstName);
-            for(var stuff in re[1]){
-                    console.log(stuff);
-                    console.log(re[stuff]);
-                    document.getElementById("firstName").value = re[stuff].firstName; 
-                    document.getElementById("lastName").value = re[stuff].lastName;
-                    document.getElementById("illness").value = re[stuff].illness;
-            }
+
+                document.getElementById("firstName").value = re[0].firstName; 
+                document.getElementById("lastName").value = re[0].lastName;
+                document.getElementById("illness").value = re[0].illness;
         }, 1000);
 }
 
