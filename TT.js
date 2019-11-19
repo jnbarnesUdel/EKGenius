@@ -11,11 +11,11 @@ function entered(){
     
         setTimeout(function afterOneSeconds() {
             var re = request.response;
-           // re = JSON.parse(re);
+           re = JSON.parse(re);
             console.log(re);
-            document.getElementById("firstName").value = re.firstName; 
-            document.getElementById("lastName").value = re.lastName;
-            document.getElementById("illness").value = re.illness;
+            document.getElementById("firstName").value = re[1].firstName; 
+            document.getElementById("lastName").value = re[2].lastName;
+            document.getElementById("illness").value = re[3].illness;
             
         }, 1000);
 }
