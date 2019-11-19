@@ -11,18 +11,14 @@ function entered(){
     
         setTimeout(function afterOneSeconds() {
             var re = request.response;
-            for(var things in re){
-                    console.log(things);
-            }
             re = JSON.parse(re);
             for(var stuff in re[0]){
                     console.log(stuff);
+                    console.log(re[stuff]);
+                    document.getElementById("firstName").value = re[stuff].firstName; 
+                    document.getElementById("lastName").value = re[stuff].lastName;
+                    document.getElementById("illness").value = re[stuff].illness;
             }
-            console.log(re);
-            document.getElementById("firstName").value = re[0].firstName; 
-            document.getElementById("lastName").value = re[3].lastName;
-            document.getElementById("illness").value = re[2].illness;
-            
         }, 1000);
 }
 
