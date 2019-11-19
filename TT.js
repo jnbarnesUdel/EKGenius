@@ -12,7 +12,7 @@ function entered(){
         setTimeout(function afterOneSeconds() {
             var re = request.response;
             re = JSON.parse(re);
-            for(var stuff in re[0]){
+            for(var stuff in re){
                     console.log(stuff);
                     console.log(re[stuff]);
                     document.getElementById("firstName").value = re[stuff].firstName; 
