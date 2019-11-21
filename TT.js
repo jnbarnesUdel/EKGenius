@@ -24,6 +24,10 @@ function newPatient(){
         window.location.href = '/newPatient.html';       
 }
 
+function back(){
+        window.location.href = '/index.html';       
+}
+
 function enterData(){
         var id = document.getElementById("id").value;
         var firstName = document.getElementById("firstName").value;
