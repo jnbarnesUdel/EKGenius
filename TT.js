@@ -13,16 +13,21 @@ function entered(){
             var re = request.response;
             re = JSON.parse(re);
                 console.log(re[0]);
-
+		var i = re[0].id;
                 document.getElementById("firstName").value = re[0].firstName; 
                 document.getElementById("lastName").value = re[0].lastName;
                 document.getElementById("illness").value = re[0].illness;
 		document.getElementById("User").value = "";
+		if(i == 1){
                  g2 = new Dygraph(
 	                document.getElementById("graphdiv2"),
 	                "right-left-center.csv", // path to CSV file
 	                {}          // options
 	          );
+		}
+		else{
+		document.getElementById("graphdiv2").append("<p>No data to graph yet </p>");	
+		}
         }, 1000);
 }
 
