@@ -26,7 +26,7 @@ function entered(){
 	          );
 		}
 		else{
-		document.getElementById("graphdiv2").append("<p>No data to graph yet </p>");	
+		document.getElementById("graphdiv2").append("No data to graph yet ");	
 		}
         }, 1000);
 }
