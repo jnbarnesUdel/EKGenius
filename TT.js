@@ -17,6 +17,7 @@ function entered(){
                 document.getElementById("firstName").value = re[0].firstName; 
                 document.getElementById("lastName").value = re[0].lastName;
                 document.getElementById("illness").value = re[0].illness;
+		document.getElementById("User").value = "";
                  g2 = new Dygraph(
 	                document.getElementById("graphdiv2"),
 	                "right-left-center.csv", // path to CSV file
@@ -38,6 +39,10 @@ function enterData(){
         var firstName = document.getElementById("firstName").value;
         var lastName = document.getElementById("lastName").value;
         var illness = document.getElementById("illness").value;
+	document.getElementById("id").value = "";
+        document.getElementById("firstName").value = "";
+        document.getElementById("lastName").value = "";
+        document.getElementById("illness").value = "";
         var data = [{id},
                     {firstName}, 
                     {lastName},
