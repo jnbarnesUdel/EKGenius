@@ -17,6 +17,11 @@ function entered(){
                 document.getElementById("firstName").value = re[0].firstName; 
                 document.getElementById("lastName").value = re[0].lastName;
                 document.getElementById("illness").value = re[0].illness;
+                 g2 = new Dygraph(
+	                document.getElementById("graphdiv2"),
+	                "right-left-center.csv", // path to CSV file
+	                {}          // options
+	          );
         }, 1000);
 }
 
