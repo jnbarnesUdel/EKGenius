@@ -21,7 +21,7 @@ function entered(){
 		if(i == 1){
                  g2 = new Dygraph(
 	                document.getElementById("graphdiv2"),
-	                "right-left-center.csv", // path to CSV file
+	                "pretty-curve.csv", // path to CSV file
 	                {}          // options
 	          );
 		}
