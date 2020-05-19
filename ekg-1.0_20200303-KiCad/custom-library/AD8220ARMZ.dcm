@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8220ARMZ
+D AD8220ARMZ, Instrumention Amplifier, 0.3mV Offset, 74dB CMRR, Rail-Rail Output, 5 to 28V, 8-Pin MSOP
+K
+F http://www.analog.com/static/imported-files/data_sheets/AD8220.pdf
+$ENDCMP
+#
+#End Doc Library

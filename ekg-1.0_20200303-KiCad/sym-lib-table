@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name AD8220ARMZ)(type Legacy)(uri ${KIPRJMOD}/custom-library/AD8220ARMZ.lib)(options "")(descr ""))
+  (lib (name TPS65133DPDR)(type Legacy)(uri ${KIPRJMOD}/custom-library/TPS65133DPDR.lib)(options "")(descr ""))
+  (lib (name SJ-43514)(type Legacy)(uri ${KIPRJMOD}/custom-library/SJ-43514.lib)(options "")(descr ""))
+)

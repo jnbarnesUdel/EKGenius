@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/james/doc/cc_2020_spring/ekg/kicad_ekg_1.0/ekg-1.0_20200303_oshpark_submitted/ekg-1.0.sch</source>
+    <date>Thu 09 Apr 2020 08:16:20 PM EDT</date>
+    <tool>Eeschema 5.1.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ekg-1.0.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>AD8220ARMZ</value>
+      <footprint>AD8220ARMZ:SOP65P490X110-8N</footprint>
+      <datasheet>http://www.analog.com/static/imported-files/data_sheets/AD8220.pdf</datasheet>
+      <fields>
+        <field name="Description">AD8220ARMZ, Instrumention Amplifier, 0.3mV Offset, 74dB CMRR, Rail-Rail Output, 5 to 28V, 8-Pin MSOP</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">AD8220ARMZ</field>
+        <field name="Mouser Part Number">584-AD8220ARMZ</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=584-AD8220ARMZ</field>
+        <field name="RS Part Number">6977228P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/6977228P</field>
+      </fields>
+      <libsource lib="AD8220ARMZ" part="AD8220ARMZ" description="AD8220ARMZ, Instrumention Amplifier, 0.3mV Offset, 74dB CMRR, Rail-Rail Output, 5 to 28V, 8-Pin MSOP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E59B87C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E59CD4E</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5A11EF</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5A24DF</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5A306D</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-323F</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5A3DE8</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-323F</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5A45C5</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-323F</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5A58EA</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-323F</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5A58F0</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>2.2p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5A8D79</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>2.2p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5A9636</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5B3ABF</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5B5661</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5BD131</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5BEF5B</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5BFF21</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM324</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM324" description="Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5C44FA</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5C7721</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5C7ED6</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5C94A3</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>24k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5C9C02</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5FAAB0</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5FB406</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>4.7u</value>
+      <footprint>Inductor_SMD:L_1008_2520Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E61FD79</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>4.7u</value>
+      <footprint>Inductor_SMD:L_1008_2520Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E61E600</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E636844</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63C240</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6517C4</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6538E0</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>SJ-43514</value>
+      <footprint>SJ-43514:SJ43514</footprint>
+      <datasheet>https://www.cui.com/product/resource/sj-4351x.pdf</datasheet>
+      <fields>
+        <field name="Description">Phone Connectors audio jack, 3.5 mm, rt, 4 conductor, through hole, 0 switches</field>
+        <field name="Height">5</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">SJ-43514</field>
+        <field name="Mouser Part Number">490-SJ-43514</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=490-SJ-43514</field>
+      </fields>
+      <libsource lib="SJ-43514" part="SJ-43514" description="Phone Connectors audio jack, 3.5 mm, rt, 4 conductor, through hole, 0 switches"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6793D6</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>24.9k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5E716F</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>24.9k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5E784A</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>68p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5EAA59</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>499k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5ECD75</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>866k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5EF1B4</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>12.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5F17BC</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>TPS65133DPDR</value>
+      <footprint>TPS65133DPDR:SON45P300X300X80-13N-D</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps65133.pdf</datasheet>
+      <fields>
+        <field name="Description">Split-Rail Converter, +/-5V, 250mA Dual Output Power Supply</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS65133DPDR</field>
+        <field name="Mouser Part Number">595-TPS65133DPDR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-TPS65133DPDR</field>
+      </fields>
+      <libsource lib="TPS65133DPDR" part="TPS65133DPDR" description="Split-Rail Converter, +/-5V, 250mA Dual Output Power Supply"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E617EEC</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7FD36E</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>BATT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8181F7</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>X</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8353D3</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>GND</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E838AF7</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>A3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E83C2ED</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AD8220ARMZ" part="AD8220ARMZ">
+      <description>AD8220ARMZ, Instrumention Amplifier, 0.3mV Offset, 74dB CMRR, Rail-Rail Output, 5 to 28V, 8-Pin MSOP</description>
+      <docs>http://www.analog.com/static/imported-files/data_sheets/AD8220.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">AD8220ARMZ</field>
+        <field name="Footprint">SOP65P490X110-8N</field>
+        <field name="Datasheet">http://www.analog.com/static/imported-files/data_sheets/AD8220.pdf</field>
+        <field name="Description">AD8220ARMZ, Instrumention Amplifier, 0.3mV Offset, 74dB CMRR, Rail-Rail Output, 5 to 28V, 8-Pin MSOP</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">AD8220ARMZ</field>
+        <field name="Mouser Part Number">584-AD8220ARMZ</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=584-AD8220ARMZ</field>
+        <field name="RS Part Number">6977228P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/6977228P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-IN" type="input"/>
+        <pin num="2" name="RG" type="unspc"/>
+        <pin num="3" name="RG_1" type="unspc"/>
+        <pin num="4" name="+IN" type="input"/>
+        <pin num="5" name="-VS" type="unspc"/>
+        <pin num="6" name="REF" type="input"/>
+        <pin num="7" name="VOUT" type="output"/>
+        <pin num="8" name="+VS" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="LM2902">
+      <aliases>
+        <alias>LM324</alias>
+        <alias>TLC274</alias>
+        <alias>TLC279</alias>
+        <alias>TL074</alias>
+        <alias>LM324A</alias>
+        <alias>MCP6004</alias>
+        <alias>TL084</alias>
+        <alias>TL064</alias>
+        <alias>LMV324</alias>
+        <alias>LMC6484</alias>
+        <alias>MCP604</alias>
+        <alias>MC33079</alias>
+        <alias>MC33174</alias>
+        <alias>MC33179</alias>
+        <alias>OPA1604</alias>
+        <alias>OPA1679</alias>
+        <alias>OPA4134</alias>
+        <alias>OPA4340UA</alias>
+        <alias>OPA4376</alias>
+        <alias>MCP6L94</alias>
+        <alias>TSV914</alias>
+        <alias>ADA4807-4</alias>
+        <alias>TSV994</alias>
+      </aliases>
+      <description>Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2902</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SJ-43514" part="SJ-43514">
+      <description>Phone Connectors audio jack, 3.5 mm, rt, 4 conductor, through hole, 0 switches</description>
+      <docs>https://www.cui.com/product/resource/sj-4351x.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SJ-43514</field>
+        <field name="Footprint">SJ43514</field>
+        <field name="Datasheet">https://www.cui.com/product/resource/sj-4351x.pdf</field>
+        <field name="Description">Phone Connectors audio jack, 3.5 mm, rt, 4 conductor, through hole, 0 switches</field>
+        <field name="Height">5</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">SJ-43514</field>
+        <field name="Mouser Part Number">490-SJ-43514</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=490-SJ-43514</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+        <pin num="3" name="3" type="unspc"/>
+        <pin num="4" name="4" type="unspc"/>
+        <pin num="5" name="5" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPS65133DPDR" part="TPS65133DPDR">
+      <description>Split-Rail Converter, +/-5V, 250mA Dual Output Power Supply</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps65133.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TPS65133DPDR</field>
+        <field name="Footprint">SON45P300X300X80-13N-D</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps65133.pdf</field>
+        <field name="Description">Split-Rail Converter, +/-5V, 250mA Dual Output Power Supply</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS65133DPDR</field>
+        <field name="Mouser Part Number">595-TPS65133DPDR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-TPS65133DPDR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SWP" type="unspc"/>
+        <pin num="2" name="PGND" type="power_in"/>
+        <pin num="3" name="VPOS" type="unspc"/>
+        <pin num="4" name="GND_1" type="power_in"/>
+        <pin num="5" name="AGND" type="power_in"/>
+        <pin num="6" name="GND_2" type="power_in"/>
+        <pin num="7" name="EN" type="unspc"/>
+        <pin num="8" name="GND_3" type="power_in"/>
+        <pin num="9" name="VNEG" type="unspc"/>
+        <pin num="10" name="SWN" type="unspc"/>
+        <pin num="11" name="AVIN" type="input"/>
+        <pin num="12" name="PVIN" type="input"/>
+        <pin num="13" name="EP" type="unspc"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AD8220ARMZ">
+      <uri>/home/james/doc/cc_2020_spring/ekg/kicad_ekg_1.0/ekg-1.0_20200303_oshpark_submitted/custom-library/AD8220ARMZ.lib</uri>
+    </library>
+    <library logical="Amplifier_Operational">
+      <uri>/usr/share/kicad/library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="SJ-43514">
+      <uri>/home/james/doc/cc_2020_spring/ekg/kicad_ekg_1.0/ekg-1.0_20200303_oshpark_submitted/custom-library/SJ-43514.lib</uri>
+    </library>
+    <library logical="TPS65133DPDR">
+      <uri>/home/james/doc/cc_2020_spring/ekg/kicad_ekg_1.0/ekg-1.0_20200303_oshpark_submitted/custom-library/TPS65133DPDR.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="2" name="RLD">
+      <node ref="R11" pin="1"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="4" name="GNDREF">
+      <node ref="IC2" pin="8"/>
+      <node ref="IC2" pin="13"/>
+      <node ref="J6" pin="1"/>
+      <node ref="IC2" pin="6"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="IC2" pin="5"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U2" pin="11"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="12"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="5" name="V-">
+      <node ref="IC2" pin="9"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="C6" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R12-Pad2)">
+      <node ref="U2" pin="10"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="7" name="RG1">
+      <node ref="IC1" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="8" name="RG2">
+      <node ref="R12" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="10" name="V+">
+      <node ref="U2" pin="4"/>
+      <node ref="R1" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="IC2" pin="3"/>
+    </net>
+    <net code="11" name="Net-(IC2-Pad1)">
+      <node ref="IC2" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="12" name="3.3-5V">
+      <node ref="IC2" pin="12"/>
+      <node ref="J4" pin="1"/>
+      <node ref="IC2" pin="11"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="13" name="AMPOUT">
+      <node ref="R9" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="14" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="15" name="Net-(IC2-Pad7)">
+      <node ref="IC2" pin="7"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="16" name="Net-(IC2-Pad10)">
+      <node ref="IC2" pin="10"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="17" name="Net-(R15-Pad1)">
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="8"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="18" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1"/>
+      <node ref="U2" pin="13"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="19" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2"/>
+      <node ref="U2" pin="14"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="20" name="Net-(C1-Pad1)">
+      <node ref="IC1" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="21" name="Net-(C1-Pad2)">
+      <node ref="D4" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="22" name="Net-(C8-Pad1)">
+      <node ref="IC1" pin="7"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="23" name="Net-(R1-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="24" name="VG">
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="25" name="Net-(R8-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="26" name="Net-(R7-Pad2)">
+      <node ref="U2" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C8" pin="2"/>
+    </net>
+  </nets>
+</export>
